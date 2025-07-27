@@ -1,0 +1,31 @@
+{
+    "name": "DR3DR3-CLAUDE-CODE",
+
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+
+    "workspaceFolder": "/workspace",
+
+    "postCreateCommand": "gum style --foreground 003 --border-foreground 003 --border rounded --align center --width 50 --margin '1 2' --padding '2 4' 'André Dreyer' 'Claude Code'",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.vscode-pull-request-github",
+                "github.copilot",
+                "ms-azuretools.vscode-docker"
+            ],
+            "settings": {
+                "editor.fontFamily": "FiraCode Nerd Font, monospace",
+                "editor.fontSize": 14,
+                "terminal.integrated.defaultProfile.linux": "fish", 
+                "terminal.integrated.profiles.linux": {
+                    "fish": {
+                        "path": "/usr/bin/fish"
+                    }
+                }
+            }
+        }
+    }
+}
