@@ -1,5 +1,4 @@
-ARG ALPINE_VERSION=latest
-FROM node:alpine-${ALPINE_VERSION}
+FROM node:alpine
 
 LABEL maintainer="Andre Dreyer"
 
