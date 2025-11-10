@@ -16,5 +16,3 @@ RUN npm install -g task-master-ai
 ENV SHELL=/usr/bin/fish
 
 ENTRYPOINT ["/usr/bin/fish"]
-
-VOLUME ["/workspace/local"]
