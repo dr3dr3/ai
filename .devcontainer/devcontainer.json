@@ -1,5 +1,5 @@
 {
-    "name": "DR3DR3-CLAUDE-CODE",
+    "name": "DR3DR3-AI-AGENTS-CODING",
 
     "build": {
         "dockerfile": "Dockerfile"
@@ -7,14 +7,18 @@
 
     "workspaceFolder": "/workspace",
 
-    "postCreateCommand": "gum style --foreground 003 --border-foreground 003 --border rounded --align center --width 50 --margin '1 2' --padding '2 4' 'André Dreyer' 'Claude Code'",
+    "postCreateCommand": "gum style --foreground 003 --border-foreground 003 --border rounded --align center --width 50 --margin '1 2' --padding '2 4' 'André Dreyer' 'AI Agents & Coding'",
 
     "customizations": {
         "vscode": {
             "extensions": [
+                "ms-vscode.live-server",
+                "esbenp.prettier-vscode",
                 "github.vscode-pull-request-github",
+                "ms-azuretools.vscode-docker",
                 "github.copilot",
-                "ms-azuretools.vscode-docker"
+                "Anthropic.claude-code",
+                "Continue.continue"
             ],
             "settings": {
                 "editor.fontFamily": "FiraCode Nerd Font, monospace",
