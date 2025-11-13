@@ -6,7 +6,7 @@ LABEL maintainer="Andre Dreyer"
 RUN npm install -g @anthropic-ai/claude-code
 
 # Task Master .dev (MCP)
-RUN npm install -g --lgeacy-peer-deps task-master-ai
+RUN npm install -g --legacy-peer-deps task-master-ai
 
 # Install git and configure user
 RUN apk add git && git config --global user.name "André Dreyer" && git config --global user.email "github@andredreyer.com"
