@@ -2,9 +2,6 @@ FROM node:alpine
 
 LABEL maintainer="Andre Dreyer"
 
-# Dependencies for my dotfiles and work setup
-RUN apk add --no-cache vim nushell fish starship stow git gum font-fira-code-nerd
-
 # Claude Code
 RUN npm install -g @anthropic-ai/claude-code
 
