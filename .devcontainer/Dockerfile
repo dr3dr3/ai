@@ -9,7 +9,7 @@ RUN npm install -g @anthropic-ai/claude-code
 RUN npm install -g task-master-ai
 
 # Install git and configure user
-RUN git config --global user.name "André Dreyer" && git config --global user.email "github@andredreyer.com"
+RUN apk add git && git config --global user.name "André Dreyer" && git config --global user.email "github@andredreyer.com"
 
 # Set fish as default shell
 ENV SHELL=/usr/bin/fish
