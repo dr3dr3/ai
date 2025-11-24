@@ -9,3 +9,4 @@ My AI tooling setup
 * `cn -p "prompt here"` headless mode
 * Use `@` to give it context
 * Use `/` to run slash commands
+
