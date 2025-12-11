@@ -29,9 +29,6 @@ RUN npm install -g @google/gemini-cli
 # TaskMaster.dev
 RUN npm install -g --legacy-peer-deps task-master-ai
 
-# Goose AI Agent
-RUN curl -fsSL https://raw.githubusercontent.com/block/goose/main/download_cli.sh | sh
-
 # Configure git user
 RUN git config --global user.name "André Dreyer" && git config --global user.email "github@andredreyer.com"
 
