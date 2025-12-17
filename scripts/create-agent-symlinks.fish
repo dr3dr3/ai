@@ -2,8 +2,8 @@
 
 # Create symlinks of all files in /agents into .claude/agents folder
 
-# Get the workspace directory (script's parent directory)
-set workspace_dir (dirname (status --current-filename))
+# Use /workspace directory (set in devcontainer)
+set workspace_dir /workspace
 
 # Define source and target directories
 set source_dir "$workspace_dir/agents"

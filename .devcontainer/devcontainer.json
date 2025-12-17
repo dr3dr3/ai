@@ -16,6 +16,7 @@
                 "ms-azuretools.vscode-docker",
                 "github.copilot",
                 "Anthropic.claude-code",
+                "google.gemini-cli-vscode-ide-companion",
                 "DavidAnson.vscode-markdownlint"
             ],
             "settings": {
